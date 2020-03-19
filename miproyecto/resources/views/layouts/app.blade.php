@@ -61,7 +61,7 @@
         @show
 
         <div class="container">
-            @yield('content', View::make('mypage'))
+            @yield('content', View::make('mypage', ['id'=>'1']))
         </div>
     </body>
 </html>

@@ -19,7 +19,7 @@
             </div>
             <div class="container">
                 @yield('content')
-                <h1> User: <?php echo "holaaa "; ?> </h1>
+                <h1> <?php echo 'User: ' . {{isset($name) ? $name : 'Default'}}; ?> </h1>
             </div>
         </div>
     </div>

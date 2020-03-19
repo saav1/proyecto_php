@@ -12,6 +12,6 @@ class User extends Model
     }
 
     public function getNombre(){
-        return "hollaaaa";
+        return "stalyn";
     }
 }
