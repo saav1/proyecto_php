@@ -35,10 +35,11 @@ return [
     */
 
     'channels' => [
-        'stack' => [
+        'stack' => [                                    //Esta es la que se usa por defecto.
             'driver' => 'stack',
             'channels' => ['single'],
             'ignore_exceptions' => false,
+            'level' => 'debug',
         ],
 
         'single' => [

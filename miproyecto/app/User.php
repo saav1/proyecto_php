@@ -2,48 +2,16 @@
 
 namespace App;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
-use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
+use Illuminate\Database\Eloquent\Model;
 
-class User extends Authenticatable
+class User extends Model
 {
-    use Notifiable;
+    //
+    public function orders(){
+        return $this->hasMany('App\Order');
+    }
 
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array
-     */
-    protected $fillable = [
-        'name', 'email', 'password',
-    ];
-
-    /*ctuar con el código desde la
-línea de comandos:
-$ php artisan tinker
-Diseño de Sistemas Software
-     *ctuar con el código desde la
-línea de comandos:
-$ php artisan tinker
-Diseño de Sistemas Softwareden for arrays.
-     *ctuar con el código desde la
-línea de comandos:
-$ php artisan tinker
-Diseño de Sistemas Software
-     * @var array
-     */
-    protected $hidden = [
-        'password', 'remember_token',
-    ];
-
-    /**
-     * The attributes that should be cast to native types.
-     *
-     * @var array
-     */
-    protected $casts = [
-        'email_verified_at' => 'datetime',
-    ];
-
+    public function getNombre(){
+        return "hollaaaa";
+    }
 }
