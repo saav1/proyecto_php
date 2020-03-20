@@ -19,8 +19,8 @@ Route::get('/', function () {
 
 
 
-Route::get('/mypage{id?}', function ($id) {
-    return view('/mypage', ['id'=>$id]);
+Route::get('/mypage{name?}', function ($name='stalyn') {
+    return view('/mypage', ['name'=>$name]);
 });
 
 Route::get('/app', function(){

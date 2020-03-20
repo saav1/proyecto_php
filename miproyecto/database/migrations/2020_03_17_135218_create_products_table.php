@@ -17,6 +17,7 @@ class CreateProductsTable extends Migration
             $table->bigIncrements('id')->primarykey();
             $table->string('name');
             $table->string('description');
+
             $table->timestamps();
         });
     }
