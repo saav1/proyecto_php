@@ -1,14 +1,11 @@
 <p>Lista de Usuarios: </p>
 
 <?php 
-
     foreach( $users as $user ){
         
         echo "<a href=" . action('UserController@showProfile', $user->id) . "> $user->name </a><br>";
 
     }
-
-
 ?>
 
 <!--
