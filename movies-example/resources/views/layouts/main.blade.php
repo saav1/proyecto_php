@@ -15,7 +15,7 @@
             <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between px-4 py-6">
                 <ul class="flex flex-col md:flex-row items-center">
                     <li>
-                        <a href="#">
+                        <a href="{{route('movies.index')}}">
                             <!-- AQUÍ FALTA EL svg del logo -->
                             <svg class="w-10" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                     viewBox="0 0 19.132 19.132" style="enable-background:new 0 0 19.132 19.132;" xml:space="preserve">
@@ -31,7 +31,7 @@
                         </a>
                     </li>
                     <li class="md:ml-16 mt-3 md:mt-0">
-                        <a href="#" class="hover:text-gray-300">Movies</a>
+                        <a href="{{route('movies.index')}}" class="hover:text-gray-300">Movies</a>
                     </li>
                     <li class="md:ml-6 mt-3 md:mt-0">
                         <a href="#" class="hover:text-gray-300">TV Shows</a>
