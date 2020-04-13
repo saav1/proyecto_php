@@ -56,23 +56,15 @@
                 </div>
 
                 <div class="products text-center"> <!-- To start it will be only 3 products in this section -->
-                    <div class="product">
-                        <a href="" class=""><img src="img/macbook-pro.png" alt="product"></a>
-                        <a href="" class=""><div class="product-name">Mackbook Pro</div></a>
-                        <div class="product-price">$2499.99</div>
-                    </div>
 
-                    <div class="product">
-                        <a href="" class=""><img src="img/macbook-pro.png" alt="product"></a>
-                        <a href="" class=""><div class="product-name">Mackbook Pro</div></a>
-                        <div class="product-price">$2499.99</div>
-                    </div>
+                    @foreach($products as $product)
+                        <div class="product">
+                            <a href="" class=""><img src="/img/macbook-pro.png" alt="product"></a>
+                            <a href="" class=""><div class="product-name">{{ $product->name }}</div></a>
+                            <div class="product-price">{{ $product->presentPrice() }}</div>
+                        </div>
+                    @endforeach
 
-                    <div class="product">
-                        <a href="" class=""><img src="img/macbook-pro.png" alt="product"></a>
-                        <a href="" class=""><div class="product-name">Mackbook Pro</div></a>
-                        <div class="product-price">$2499.99</div>
-                    </div>
 
                 </div> <!-- end products -->
 
