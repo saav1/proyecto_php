@@ -1,0 +1,48 @@
+<!DOCTYPE hml>
+
+<html lang="{{ app()->getLocale() }}">
+    <head>
+        <meta charse="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>3amCodigo</title>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:300,400,700">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+    </head>
+
+    <body>
+        <header>
+            <div class="top-nav container">
+                <div class="logo">3amCodigo.com</div>
+                <ul>
+                    <li ><a href="#" class="">Algoritmos</a></li>
+                    <li ><a href="#" class="">C++</a></li>
+                    <li ><a href="#" class="">Java</a></li>
+                    <li ><a href="#" class="">Info.</a></li>
+                </ul>
+            </div> <!-- end top nav-->
+
+            <div class="hero container">
+                <div class="hero-copy">
+                    <h1>Aprende a programar con ejemplos prácticos</h1>
+                    <p>La experiencia nos ha llevado a diseñar este tipo de manual, en el que cada
+                        una de las funciones se ejercita mediante la realización de un ejercicio práctico.
+                    </p>
+                </div>
+            </div>
+
+        </header>
+
+    </body>
+
+    <footer>
+    
+    </footer>
+
+
+</html>
