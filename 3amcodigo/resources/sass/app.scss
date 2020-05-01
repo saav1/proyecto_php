@@ -89,7 +89,7 @@ img{
 }
 
 header{
-  background: url('images/triangles.svg');
+  background: url('images/purple-bg.svg');
   background-size: cover;
   color: white;
 
@@ -108,12 +108,13 @@ header{
       list-style-type: none;
       text-transform: uppercase;
       justify-content: space-between;
+      font-weight: bold;
       width: 40%;
 
       a{
         color:$white;
         &:hover{
-          color:darken($white, 15%);
+          color:darken($white, 25%);
         }
       }
 
@@ -177,7 +178,7 @@ header{
 }
 
 footer{
-  background: $gray-background;
+  background: $DarkPurple;
   color: $white;
   padding: 40px 0;
 
