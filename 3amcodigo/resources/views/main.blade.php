@@ -18,12 +18,12 @@
     <body>
         <header>
             <div class="top-nav container">
-                <div class="logo">3amCodigo.com</div>
+                <div class="logo"><a href="/">3amCodigo.com</a></div>
                 <ul>
-                    <li ><a href="#" class="">Algoritmos</a></li>
+                    <li ><a href="/algoritmos" class="">Algoritmos</a></li>
                     <li ><a href="#" class="">C++</a></li>
                     <li ><a href="#" class="">Java</a></li>
-                    <li ><a href="#" class="">Log in</a></li>
+                    <li ><a href="/login" class="">Log in</a></li>
                 </ul>
             </div> <!-- end top nav-->
 

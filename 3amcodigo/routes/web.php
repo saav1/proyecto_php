@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('main');
 });
+
+Route::view('/algoritmos', 'algoritmos');
+
+Route::view('/login', 'login');
