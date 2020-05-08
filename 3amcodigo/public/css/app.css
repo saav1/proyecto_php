@@ -114,8 +114,14 @@ body {
 
 ol,
 ul {
-  list-style: none;
+  list-style: square;
 }
+
+li{
+  font-size: 16px;
+
+}
+
 
 blockquote,
 q {
@@ -288,8 +294,9 @@ header {
 header .top-nav {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 10px 0;
 }
+
 
 header .top-nav .logo a{
   font-weight: bold;
@@ -313,6 +320,43 @@ header .top-nav ul a {
 
 header .top-nav ul a:hover {
   color: darkgray;
+}
+
+pre {
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 80%;
+  line-height: 140%;
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  color: #ffffff;
+  background:  #1b2631 ;
+  display: block;
+  max-width: 80%;
+  padding: 1px 1px 1px;
+}       
+
+code {
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-size: 90%;
+  line-height: 140%;
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  /*background: #faf8f0;*/
+  color: #ffffff;
+  background:  #1b2631 ;
+  display: block;
+  max-width: 80%;
+  padding: 1px 1px;
+}
+
+content code {
+  display: block;
+  padding: 0.5em 1em;
+  border: 1px solid #bebab0;
 }
 
 .hero {
@@ -364,7 +408,7 @@ header .top-nav ul a:hover {
 }
 
 footer {
-  background: #3D0D51;
+  background:  #1b0524 ;
   color: #e9e9e9;
   padding: 40px 0;
 }

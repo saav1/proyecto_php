@@ -16,27 +16,18 @@
     </head>
 
     <body>
-        <header>
-            <div class="top-nav container">
-                <div class="logo"><a href="/">3amCodigo.com</a></div>
-                <ul>
-                    <li ><a href="/algoritmos" class="">Algoritmos</a></li>
-                    <li ><a href="#" class="">C++</a></li>
-                    <li ><a href="#" class="">Java</a></li>
-                    <li ><a href="/login" class="">Log in</a></li>
-                </ul>
-            </div> <!-- end top nav-->
+   
+         @include('partials.nav')
 
-            <div class="hero container">
-                <div class="hero-copy">
-                    <h1>Aprende a programar con ejemplos prácticos</h1>
-                    <p>La experiencia nos ha llevado a diseñar este tipo de manual, en el que cada
-                        una de las funciones se ejercita mediante la realización de un ejercicio práctico.
-                    </p>
-                </div>
+        <div class="hero container">
+            <div class="hero-copy">
+                <h1>Aprende a programar con ejemplos prácticos</h1>
+                <p>La experiencia nos ha llevado a diseñar este tipo de manual, en el que cada
+                    una de las funciones se ejercita mediante la realización de un ejercicio práctico.
+                </p>
             </div>
+        </div>
 
-        </header>
 
 
         <footer>

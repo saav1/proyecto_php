@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('main');
 });
 
-Route::view('/algoritmos', 'algoritmos');
+Route::view('/algoritmos', 'algoritmos/algoritmos');
+Route::view('/algoritmos/analisis', 'algoritmos/analisis');
 
 Route::view('/login', 'login');
+
+Route::view('/c++', 'c++/c++');
+
+
