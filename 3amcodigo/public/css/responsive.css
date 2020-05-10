@@ -8,7 +8,7 @@
 
 /* Medium Devices, Desktops */
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 901px) {
   header.with-background .top-nav,
   header .top-nav {
     -webkit-box-orient: vertical;
@@ -149,11 +149,231 @@
   .checkout-section .checkout-table-container {
     margin-left: 10px;
   }
+
+  .principal-section{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background: #ffffff;
+    margin: 30px 20px 30px;
+  
+  }
+
+  .centralbar{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 15px;
+    padding-bottom: 50px;
+  }
+
+  code {
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    font-size: 60%;
+    line-height: 140%;
+    white-space: pre;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    /*background: #faf8f0;*/
+    color: #ffffff;
+    background:  #1b2631 ;
+    display: block;
+    max-width: 100%;
+    padding: 1px 1px 1px;
+  }
+
 }
 
 /* Small Devices, Tablets */
+@media only screen and (max-width: 750px) {
+header.with-background .top-nav,
+header .top-nav {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.principal-section{
+  display: grid;
+  grid-template-columns: 1fr;
+  background: #ffffff;
+  margin: 30px 20px 30px;
+
+}
+  
+header.with-background .top-nav .logo,
+header .top-nav .logo {
+  margin: auto;
+}
+
+header.with-background .top-nav ul,
+header .top-nav ul {
+  margin: 20px auto 0;
+  width: 80%;
+}
+
+header.with-background .hero,
+header .hero {
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+header.with-background .hero .hero-image,
+header .hero .hero-image {
+  padding-left: 0;
+  margin-top: 40px;
+}
+
+.featured-section {
+  padding: 50px 0;
+}
+
+.featured-section .products {
+  grid-template-columns: 1fr;
+}
+
+.blog-section .blog-posts {
+  grid-template-columns: 1fr;
+  text-align: center;
+  grid-template-areas: "blog3" "blog2" "blog1";
+}
+
+.blog-section .blog-posts .blog-post {
+  margin-top: 30px;
+}
+
+.footer-content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-content .made-with {
+  margin: auto;
+}
+
+.footer-content ul {
+  margin: 20px auto;
+  width: 60%;
+}
+
+.breadcrumbs {
+  text-align: center;
+}
+
+.products-section {
+  grid-template-columns: 1fr;
+}
+
+.products-section .sidebar {
+  text-align: center;
+}
+
+.products-section .products {
+  grid-template-columns: 1fr;
+}
+
+.product-section {
+  grid-template-columns: 1fr;
+}
+
+.might-like-section .might-like-grid {
+  grid-template-columns: 1fr;
+}
+
+.cart-section {
+  grid-template-columns: 1fr;
+}
+
+.cart-section .cart-buttons {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.cart-section .cart-table-row .cart-table-row-left {
+  width: 30%;
+}
+
+.cart-section .cart-table-row .cart-table-row-right {
+  width: 55%;
+}
+
+.cart-section .cart-table-row img {
+  display: none;
+}
+
+.cart-section .have-code-container {
+  width: 100%;
+}
+
+.cart-section .cart-totals {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cart-section .cart-totals .cart-totals-left {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.cart-section .cart-totals .cart-totals-right {
+  width: 100%;
+}
+
+.checkout-section {
+  grid-template-columns: 1fr;
+}
+
+.checkout-section .checkout-table-container {
+  margin-left: 10px;
+}
+
+.sidebar h3{
+  display: none;
+}
+
+.sidebar h2{
+  display: none;
+}
+
+.sidebar ul{
+  display: none;
+}
+
+.centralbar{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+
+code {
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-size: 75%;
+  line-height: 140%;
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  /*background: #faf8f0;*/
+  color: #ffffff;
+  background:  #1b2631 ;
+  display: block;
+  max-width: 100%;
+  padding: 1px 1px 1px;
+}
+
+
+}
 
 /* Extra Small Devices, Phones */
+
 
 /* Custom, iPhone Retina */
 

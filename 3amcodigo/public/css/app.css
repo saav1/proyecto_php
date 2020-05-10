@@ -19,7 +19,6 @@ h6,
 p,
 blockquote,
 pre,
-a,
 abbr,
 acronym,
 address,
@@ -28,7 +27,6 @@ cite,
 code,
 del,
 dfn,
-em,
 img,
 ins,
 kbd,
@@ -37,21 +35,17 @@ s,
 samp,
 small,
 strike,
-strong,
 sub,
 sup,
 tt,
 var,
-b,
 u,
-i,
+ul,
 center,
 dl,
 dt,
 dd,
 ol,
-ul,
-li,
 fieldset,
 form,
 label,
@@ -114,7 +108,7 @@ body {
 
 ol,
 ul {
-  list-style: square;
+  list-style-type: circle;
 }
 
 li{
@@ -155,8 +149,8 @@ html {
 
 body {
   font-family: "Roboto", Arial, sans-serif;
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 17px;
+  font-weight: 370;
   line-height: 1.6;
 }
 
@@ -197,6 +191,12 @@ img {
   max-width: 1200px;
   margin: auto;
 }
+
+.container-info {
+  width: 90%;
+
+}
+
 
 .button {
   border: 1px solid #212121;
@@ -240,12 +240,11 @@ img {
 }
 
 
-.algoritmos-section{
+.principal-section{
   display: grid;
-  grid-template-columns: 1fr 6fr;
+  grid-template-columns: 0.18fr 0.75fr 0.15fr;
   background: #ffffff;
-  margin: 50px 30px 50px;
-
+  margin: 30px 20px 30px;
 }
 
 h1.stylish-heading{
@@ -275,12 +274,45 @@ h1.stylish-heading:after {
 
 .sidebar h3{
   font-weight: bold;
-
 }
 
 .sidebar ul{
   line-height: 2;
-  list-style: none;
+  list-style: disc;
+  margin-left: 25px;
+
+}
+
+.centralbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.centralbar-info{
+  display: block;
+  margin-left: 50px;
+  margin-top: 50px;
+  color: #210d29;
+}
+
+.centralbar-info h3{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.centralbar-info ul{
+  line-height: 3;
+  list-style: disc;
+  padding-left: 30px;
+}
+
+
+ .centralbar-info ul li a{
+  font-weight: bold;
+  font-size: 16px;
+  color: #440d5a;
 }
 
 
@@ -333,13 +365,13 @@ pre {
   color: #ffffff;
   background:  #1b2631 ;
   display: block;
-  max-width: 80%;
+  max-width: 90%;
   padding: 1px 1px 1px;
 }       
 
 code {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-  font-size: 90%;
+  font-size: 75%;
   line-height: 140%;
   white-space: pre;
   white-space: pre-wrap;
@@ -349,8 +381,8 @@ code {
   color: #ffffff;
   background:  #1b2631 ;
   display: block;
-  max-width: 80%;
-  padding: 1px 1px;
+  max-width: 90%;
+  padding: 1px 1px 1px;
 }
 
 content code {
@@ -365,6 +397,7 @@ content code {
   grid-gap: 30px;
   padding-top: 20px;
   padding-bottom: 84px;
+
 }
 
 .hero .hero-image {

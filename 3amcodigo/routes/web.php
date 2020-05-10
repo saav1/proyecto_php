@@ -15,8 +15,31 @@ Route::get('/', function () {
     return view('main');
 });
 
+//--------------------ALGORITMOS------------------------------------//
+
 Route::view('/algoritmos', 'algoritmos/algoritmos');
-Route::view('/algoritmos/analisis', 'algoritmos/analisis');
+
+//--------------------EFICIENCIA------------------------------------//
+Route::view('/algoritmos/eficiencia', 'algoritmos/eficiencia');
+
+//COTAS
+Route::view('/algoritmos/eficiencia/cotas', 'algoritmos/cotas');
+
+//CÁLCULO
+Route::view('/algoritmos/eficiencia/calculo', 'algoritmos/calculo');
+
+
+//---------------------ESTRATEGIAS-----------------------------------//
+Route::view('/algoritmos/estrategia/', 'algoritmos/estrategia');
+
+//VUELTA ATŔAS
+Route::view('/algoritmos/estrategia/vuelta', 'algoritmos/vuelta');
+
+//DIVIDE Y VENCERÁS
+Route::view('/algoritmos/estrategia/divide', 'algoritmos/divide');
+
+
+
 
 Route::view('/login', 'login');
 
