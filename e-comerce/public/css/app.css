@@ -166,7 +166,8 @@ header .top-nav ul a:hover {
 }
 
 footer {
-  background: #535353;
+  /*background: #535353;*/
+  background: #432375;
   color: #e9e9e9;
   padding: 40px 0;
 }

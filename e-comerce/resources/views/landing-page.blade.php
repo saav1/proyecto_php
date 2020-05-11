@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>CSS Grid Example</title>
+        <title>e-comerce</title>
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:300,400,700">
@@ -19,7 +19,7 @@
     <body>
         <header>
             <div class="top-nav container">
-                <div class="logo">CSS Grid Example</div>
+                <div class="logo">Ecomerce</div>
                 <ul>
                     <li><a href="#">Shop</a></li>
                     <li><a href="#">About</a></li>
@@ -30,8 +30,8 @@
 
             <div class="hero container">
                 <div class="hero-copy">
-                    <h1>CSS Grid Example</h1>
-                    <p>A practical example of using CSS Grid for a typical website layout.</p>
+                    <h1>Ecomerce</h1>
+                    <p>Description about the e-comerce.</p>
                     <div class="hero-buttons">
                         <a href="" class="button button-white">Button 1</a>
                         <a href="" class="button button-white">Button 2</a>
