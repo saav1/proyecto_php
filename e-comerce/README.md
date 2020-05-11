@@ -1,5 +1,4 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
-
+![alt text](https://github.com/saav1/proyecto_php/blob/master/e-comerce/public/img/ecomerce1.png?raw=true)
 
 ## About Ecomerce
 
