@@ -9,5 +9,6 @@
     <ul>
         <li><a href="{{url('algoritmos/estrategia/vuelta')}}">Vuelta Atrás</a></li>
         <li><a href="{{url('algoritmos/estrategia/divide')}}"> Divide y vencerás</a></li>
+        <li><a href="{{url('algoritmos/estrategia/ramypoda')}}"> Ramificación y Poda</a></li>
     </ul>
 </div>

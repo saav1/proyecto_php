@@ -38,6 +38,9 @@ Route::view('/algoritmos/estrategia/vuelta', 'algoritmos/vuelta');
 //DIVIDE Y VENCERÁS
 Route::view('/algoritmos/estrategia/divide', 'algoritmos/divide');
 
+//RAMIFICACIÓN Y PODA
+Route::view('/algoritmos/estrategia/ramypoda', 'algoritmos/ramypoda');
+
 
 
 
