@@ -1,4 +1,4 @@
-<?php
+	<?php
 
 /*
 |--------------------------------------------------------------------------
@@ -26,7 +26,7 @@ Route::view('/algoritmos/eficiencia', 'algoritmos/eficiencia');
 Route::view('/algoritmos/eficiencia/cotas', 'algoritmos/cotas');
 
 //CÁLCULO
-Route::view('/algoritmos/eficiencia/calculo', 'algoritmos/calculo');
+Route::view('/algoritmos/eficiencia/analisis', 'algoritmos/analisis');
 
 
 //---------------------ESTRATEGIAS-----------------------------------//
