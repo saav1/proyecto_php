@@ -32,11 +32,18 @@ Route::view('/algoritmos/eficiencia/analisis', 'algoritmos/analisis');
 //---------------------ESTRATEGIAS-----------------------------------//
 Route::view('/algoritmos/estrategia/', 'algoritmos/estrategia');
 
-//VUELTA ATŔAS
-Route::view('/algoritmos/estrategia/vuelta', 'algoritmos/vuelta');
-
 //DIVIDE Y VENCERÁS
 Route::view('/algoritmos/estrategia/divide', 'algoritmos/divide');
+
+//PROGRAMAICÓN DINÁMCIA
+Route::view('/algoritmos/estrategia/prog', 'algoritmos/prog');
+
+//PROGRAMAICÓN DINÁMCIA
+Route::view('/algoritmos/estrategia/voraz', 'algoritmos/voraz');
+
+
+//VUELTA ATŔAS
+Route::view('/algoritmos/estrategia/vuelta', 'algoritmos/vuelta');
 
 //RAMIFICACIÓN Y PODA
 Route::view('/algoritmos/estrategia/ramypoda', 'algoritmos/ramypoda');

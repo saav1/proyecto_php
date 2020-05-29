@@ -14,7 +14,7 @@
             <i class="fa fa-chevron-right breadcrumb-separator"></i>
             <a href="/algoritmos">Algoritmos</a>
             <i class="fa fa-chevron-right breadcrumb-separator"></i>
-            <span>Estrategia</span>
+            <span>Estrategias</span>
         </div>
     </div> <!-- end breadcrumbs -->
 
@@ -24,25 +24,22 @@
 
         <div class="container-info">
             <h1 class="stylish-heading">Estrategias</h1>
-            <p>Los algoritmos nos sirven para resolver problemas</p>
-            <code>
-    #include &ltstdl&gt
-    #include 
+            <p>
+            Saber elegir bien una estrategia ante un problema es importante para un buen programador porque va a aumentar sus posibilidades de encontrar la solución óptima y además hacerlo en menos tiempo.
+            <br><br>
+            Vamos a ver las familias más importantes de problemas algorítmicos y estudiar diferentes esquemas o paradigmas de diseño aplicables para resolverlos.
+            <br><br>
+            Estas familias de problemas junto con las técnicas de diseño de algoritmo han sido muy estudiadas por científicos de la computación. Ahora nos van a servir para aprender a resolver problemas teniendo el criterio suficiente para elegir una
+            <i>técnica de diseño</i>  o estrategia adecuada.
+            <br>
+            <br>
 
-    int main()
-    {
 
-    }
-            
-            </code>
-            <p>Resultado</p>
-            <pre>
+            @include('algoritmos.centralbar_1')
 
-    [Fri May  8 13:09:15 2020] 127.0.0.1:47342 [200]: /css/app.css
-    [Fri May  8 13:09:15 2020] 127.0.0.1:47346 [200]: /css/responsive.css
-    [Fri May  8 13:09:15 2020] 127.0.0.1:47352 [200]: 
 
-            </pre>
+            </p>
+
         </div>
 
         @include('algoritmos.sidebar')

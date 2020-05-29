@@ -190,6 +190,7 @@ img {
 .container {
   max-width: 1200px;
   margin: auto;
+
 }
 
 .container-info {
@@ -221,6 +222,7 @@ img {
 .section-description {
   width: 80%;
   margin: auto;
+
 }
 
 .button-container {
@@ -232,6 +234,10 @@ img {
   background: #F5F5F5;
   border-bottom: 1px solid #CDCDCD;
   padding: 10px 0;
+  /*background:  #d7bde2  ;*/
+  /*background:  #d5d8dc ;*/
+  background:    #d5dbdb;
+
 }
 
 .breadcrumbs .breadcrumb-separator{
@@ -243,7 +249,7 @@ img {
 .principal-section{
   display: grid;
   grid-template-columns: 0.18fr 0.75fr 0.15fr;
-  background: #ffffff;
+  background: #ffff;
   margin: 30px 20px 30px;
 }
 
@@ -274,12 +280,14 @@ h1.stylish-heading:after {
 
 .sidebar h3{
   font-weight: bold;
+
 }
 
 .sidebar ul{
   line-height: 2;
   list-style: disc;
   margin-left: 25px;
+
 
 }
 
@@ -295,6 +303,8 @@ h1.stylish-heading:after {
   margin-left: 50px;
   margin-top: 50px;
   color: #210d29;
+  
+
 }
 
 .centralbar-info h3{
